@@ -23,7 +23,7 @@
                       </div>
                       <div class="row">
                           <div  class="col-md-8 col-md-offset-2">
-                              <div class="input-group" ">
+                              <div class="input-group" ">                   //username placeholder
                                   <span class="input-group-addon">
                                       <i class="glyphicon glyphicon-user"></i>
                                   </span>
@@ -36,7 +36,7 @@
                       </div>
                       <div class="row">
                           <div  class="col-md-8 col-md-offset-2">
-                              <div class="input-group" ">
+                              <div class="input-group" ">               //password placeholder
                                   <span class="input-group-addon">
                                       <i class="glyphicon glyphicon-lock"></i>
                                   </span>
@@ -48,7 +48,7 @@
                                       <div class="col-md-12">&nbsp;</div>
                           </div>
                            <div class="row">
-                                        <div class="col-md-8 col-md-offset-2">
+                                        <div class="col-md-8 col-md-offset-2">          //button
                                             <button type="submit" class="btn btn-success btn-block">
                                                 Login
                                             </button>

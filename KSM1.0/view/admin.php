@@ -4,7 +4,8 @@
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
   </head>
   <body>
-      <nav class="navbar navbar-default navbar-top" style="background-color:yellow;">
+<!--      navbar-->
+      <nav class="navbar navbar-default navbar-top" style="background-color:rgb(82, 82, 84);margin:-1;">
           <div class="collapse navbar-collapse" id="">
               <form class="navbar-form navbar-left">
                   <div class="form-group">
@@ -14,6 +15,7 @@
                       <i class="glyphicon glyphicon-search"></i>
                   </button>
               </form>
+<!--              right navbar-->
               <div class="navbar-right">
                    <div class=" dropdown">
                   <button  class="btn btn-secondary btn-md dropdown-toggle" href="#" role="button" id="accountmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin:6px; margin-right:30px;">Account<span class="caret"></span></button>
@@ -25,6 +27,23 @@
               </div>
           </div>
       </nav>
+<!-- features tabs-->
+         <div class=" navbar">
+             <ul class="nav nav-tabs">
+                 <li class="nav-item">
+                     <a class="nav-link active" href="../view/login.php">User Management</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link active" href="">Stock Managment</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link active" href="">Statistics</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link active" href="">Other</a>
+                 </li>
+             </ul>
+        </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

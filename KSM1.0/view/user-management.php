@@ -4,8 +4,8 @@
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
   </head>
   <body>
-<!--      navbar-->
-      <nav class="navbar navbar-default navbar-top" style="background-color:rgb(82, 82, 84);margin:-1;">
+      <!--      navbar-->
+      <nav class="navbar navbar-default navbar-top" style="background-color:rgb(82, 82, 84);margin:0;">
           <div class="collapse navbar-collapse" id="">
               <form class="navbar-form navbar-left">
                   <div class="form-group">
@@ -31,7 +31,7 @@
          <div class=" navbar">
              <ul class="nav nav-tabs">
                  <li class="nav-item">
-                     <a class="nav-link active" href="../view/user-management.php">User Management</a>
+                     <a class="nav-link active" href="">User Management</a>
                  </li>
                  <li class="nav-item">
                      <a class="nav-link active" href="">Stock Management</a>
@@ -44,6 +44,50 @@
                  </li>
              </ul>
         </div>
+      <div class="feature-container">
+         <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-offset-2">
+                 <div href="" class="item" style="height:250px;margin:10px;"> 
+                      <a href="" style="text-decoration:none;color:black">
+                          <div class="text-center" style="padding-top:10px;margin:0;">
+                          <img src="../images/user/add-user.png" class="rounded" alt="add-user image" style="height:175px">
+                      </div>
+                      <div class="text-center">
+                          <h2>Add-User</h2>
+                      </div>
+                      </a>
+                  </div>
+              </div>        
+              <div class="col-lg-4">
+                  <div href="" class="item" style="height:250px;margin:10px;"> 
+                      <a href="" style="text-decoration:none;color:black">
+                          <div class="text-center" style="padding-top:10px;margin:0;">
+                          <img src="../images/user/edit-user.png" class="rounded" alt="edit-user image" style="height:175px">
+                      </div>
+                      <div class="text-center">
+                          <h2>Edit-User</h2>
+                      </div>
+                      </a>
+                  </div>
+              </div>        
+           </div>
+          <div class="row">
+              <div class="col-lg-4 col-md-offset-4">
+                  <div href="" class="item" style="height:250px;margin:10px;"> 
+                      <a href="" style="text-decoration:none;color:black">
+                          <div class="text-center" style="padding-top:10px;margin:0;">
+                          <img src="../images/user/add-user.png" class="rounded" alt="add-user image" style="height:175px">
+                      </div>
+                      <div class="text-center">
+                          <h2>Delete-User</h2>
+                      </div>
+                      </a>
+                  </div>
+              </div>        
+            </div>
+          </div>
+      </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

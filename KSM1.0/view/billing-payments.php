@@ -61,25 +61,25 @@
     <div class="side-bar"style="width:fit-content;background-color:black">
         <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
             <div class="side-nav">
-                <div class="list-group list-group-flush " style="width:fit-content;text-align:center;padding:20px;height:270px;justify-content:space-around">
+                <div class="list-group list-group-flush " style="width:fit-content;text-align:center;padding:20px;height:300px;justify-content:space-around">
                     <div>
                         <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                            <span>Add Users</span>
+                            <span> Customer Details</span>
                         </a>
                     </div>
                     <div>
                         <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                            <span>Edit Users</span>
+                            <span>Transactions</span>
                         </a>
                     </div>
                     <div>
                         <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                            <span>view Users</span>
+                            <span>Refunds</span>
                         </a>
                     </div>
                     <div>
                         <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                            <span>Remove Users</span>
+                            <span>Discounts</span>
                         </a>
                     </div>
                 </div>

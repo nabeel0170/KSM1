@@ -61,25 +61,30 @@
     <div class="side-bar"style="width:fit-content;background-color:black">
         <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
             <div class="side-nav">
-                <div class="list-group list-group-flush " style="width:fit-content;text-align:center;padding:20px;height:270px;justify-content:space-around">
+                <div class="list-group list-group-flush " style="width:fit-content;text-align:center;padding:20px;height:325px;justify-content:space-around">
                     <div>
                         <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                            <span>Add Users</span>
+                            <span>Add Ingredients</span>
                         </a>
                     </div>
                     <div>
                         <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                            <span>Edit Users</span>
+                            <span>Edit Ingredients</span>
                         </a>
                     </div>
                     <div>
                         <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                            <span>view Users</span>
+                            <span>View Ingredients</span>
                         </a>
                     </div>
                     <div>
                         <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                            <span>Remove Users</span>
+                            <span>Edit Stock</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                            <span>View Stock</span>
                         </a>
                     </div>
                 </div>

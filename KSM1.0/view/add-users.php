@@ -58,7 +58,6 @@
             </ul>
         </div>
         <hr>
-
             <div style="display:flex;">
                 <div class="side-bar"style="width:fit-content;">
                     <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
@@ -88,7 +87,74 @@
                         </div>
                     </nav> 
                 </div>
+                <div class="section" style="width:100%;">
+                    <div class="container justify-content-center align-items-center " style="width:500px;padding:30px">
+                        <form>
+                            <div class="col">
+                                <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Fname">First Name</span>
+                                </div>
+                                <input type="text" class="form-control" id="firstName" placeholder="User's First Name" aria-label="First Name" aria-describedby="Fname" maxlength="30" required>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Lname">Last Name</span>
+                                </div>
+                                <input type="text" class="form-control" id="lastName" placeholder="User's Last Name" aria-label="Last Name" aria-describedby="Lname" maxlength="30" required>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Email">Email</span>
+                                </div>
+                                <input type="text" class="form-control" id="user_Email" placeholder="User's Email" aria-label="User Email" aria-describedby="Email" maxlength="100" required>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Unic">NIC</span>
+                                </div>
+                                <input type="text" class="form-control" id="user_Nic" placeholder="User's Nic" aria-label="user_nic" aria-describedby="Unic" maxlength="20" required>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Contact">Contact Number</span>
+                                </div>
+                                <input type="text" class="form-control" id="user_Contact" placeholder="User's Contact Number" aria-label="User Contact" aria-describedby="Contact" maxlength="15" required>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Username">Username</span>
+                                </div>
+                                <input type="text" class="form-control" id="userName" placeholder="Set Username" aria-label="Username" aria-describedby="Username" maxlength="20" required>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Password">Password</span>
+                                </div>
+                                <input type="text" class="form-control" id="userPassword" placeholder="Set Password" aria-label="User Password" aria-describedby="Password" maxlength="35" required>
+                            </div>
+                            </div>
+                            <div class=" d-flex flex-column ">
+                                <select class="forms-select mb-3" id="userRole" aria-label="Users Role" required>
+                                <option  disabled selected value="">Select</option>
+                                <option value="1">Admin</option>
+                                <option value="2">Cashier</option>
+                                <option value="3">Chef</option>
+                                <option value="4">Stock Manager</option>
+                            </select>
+                                <div class="mb-3">
+                                     
+                                    <input class="form-control " type="file"  id="formFile" required>
+                            </div>
+                            </div>
+                            <div class="d-flex  justify-content-center">
+                                <button type="submit" class="btn btn-primary">Add</button>
+                            </div>
+                        </form>
+                    </div>
+                </div> 
             </div>
+
 
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

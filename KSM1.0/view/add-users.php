@@ -7,10 +7,21 @@
         <!--      navbar-->
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <div class="container-fluid">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="d-flex flex-column datetime m-2">
+                    <div class="date">
+                        <span id="dayname">Day</span>
+                        <span id="month">Month</span>:
+                        <span id="daynum">00</span>
+                        <span id="year">Year</span>
+                    </div>
+                    <div class="time">
+                        <span id="hour">00</span>:
+                        <span id="minutes">00</span>:
+                        <span id="seconds">00</span>:
+                        <span id="period">AM</span>
+                    </div>
+               
+                </div>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto"> <!-- Use "ml-auto" to push items to the right -->
@@ -70,14 +81,10 @@
                                 </div>
                                 <div>
                                     <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                                        <span>Edit Users</span>
+                                        <span>View & Edit Users</span>
                                     </a>
                                 </div>
-                                <div>
-                                    <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
-                                        <span>view Users</span>
-                                    </a>
-                                </div>
+                                
                                 <div>
                                     <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
                                         <span>Remove Users</span>
@@ -113,7 +120,13 @@
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="Unic">NIC</span>
                                 </div>
-                                <input type="text" class="form-control" id="user_Nic" placeholder="User's Nic" aria-label="user_nic" aria-describedby="Unic" maxlength="20" required>
+                                <input type="text" class="form-control" id="user_Nic" placeholder="User's Nic" aria-label="User Nic" aria-describedby="Unic" maxlength="20" required>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="Userdob">Date of Birth</span>
+                                </div>
+                                <input type="Date" class="form-control" id="user_Dob"  aria-label="User Date of Birth" aria-describedby="Userdob"  required>
                             </div>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
@@ -154,7 +167,43 @@
                     </div>
                 </div> 
             </div>
-
+<script type="text/javascript">
+                        function updateClock(){
+                            var now = new Date();
+                            var dname = now.getDay(),
+                                    mo = now.getMonth(),
+                                    dnum = now.getDate(),
+                                    yr = now.getFullYear(),
+                                    hou = now.getHours(),
+                                    min = now.getMinutes(),
+                                    sec = now.getSeconds(),
+                                    pe = "AM";
+                            if(hou==0){
+                                hou =12;
+                            }
+                            if(hou > 12){
+                                hou = hou - 12;
+                                pe = "PM";
+                            }
+                            Number.prototype.pad = function(digits){
+                                for(var n = this.toString(); n.length < digits; n = 0 + n);
+                                 return n;      
+    
+                            }
+                            
+                            var months = ["January" , "February" , "March" , "April" ,"May" ,"June" ,"July" ,"August" ,"September" ,"October" ,"November" ,"December"];
+                            var week = ["Sunday" ,"Monday" ,"Tuesday" ,"Wednesday" ,"Thursday" ,"Friday" ,"Saturday"];
+                            var ids = ["dayname", "month" ,"daynum" ,"year" ,"hour" ,"minutes" ,"seconds" ,"period"];
+                            var values =[week[dname] ,months[mo] ,dnum.pad(2) ,yr ,hou.pad(2) ,min.pad(2) ,sec.pad(2) ,pe];
+                            for(var i=0; i < ids.length; i++)
+                            document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+                        }
+                        function initClock(){
+                            updateClock();
+                            window.setInterval(updateClock,1000);
+                        }
+                        initClock();
+                    </script>
 
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

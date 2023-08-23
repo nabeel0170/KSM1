@@ -20,7 +20,7 @@
                         <span id="seconds">00</span>:
                         <span id="period">AM</span>
                     </div>
-               
+
                 </div>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -84,7 +84,7 @@
                                         <span>View & Edit Users</span>
                                     </a>
                                 </div>
-                                
+
                                 <div>
                                     <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
                                         <span>Remove Users</span>
@@ -99,66 +99,66 @@
                         <form>
                             <div class="col">
                                 <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="Fname">First Name</span>
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="Fname">First Name</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="firstName" placeholder="User's First Name" aria-label="First Name" aria-describedby="Fname" maxlength="30" required>
                                 </div>
-                                <input type="text" class="form-control" id="firstName" placeholder="User's First Name" aria-label="First Name" aria-describedby="Fname" maxlength="30" required>
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="Lname">Last Name</span>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="Lname">Last Name</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="lastName" placeholder="User's Last Name" aria-label="Last Name" aria-describedby="Lname" maxlength="30" required>
                                 </div>
-                                <input type="text" class="form-control" id="lastName" placeholder="User's Last Name" aria-label="Last Name" aria-describedby="Lname" maxlength="30" required>
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="Email">Email</span>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="Email">Email</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="user_Email" placeholder="User's Email" aria-label="User Email" aria-describedby="Email" maxlength="100" required>
                                 </div>
-                                <input type="text" class="form-control" id="user_Email" placeholder="User's Email" aria-label="User Email" aria-describedby="Email" maxlength="100" required>
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="Unic">NIC</span>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="Unic">NIC</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="user_Nic" placeholder="User's Nic" aria-label="User Nic" aria-describedby="Unic" maxlength="20" required>
                                 </div>
-                                <input type="text" class="form-control" id="user_Nic" placeholder="User's Nic" aria-label="User Nic" aria-describedby="Unic" maxlength="20" required>
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="Userdob">Date of Birth</span>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="Userdob">Date of Birth</span>
+                                    </div>
+                                    <input type="Date" class="form-control" id="user_Dob"  aria-label="User Date of Birth" aria-describedby="Userdob"  required>
                                 </div>
-                                <input type="Date" class="form-control" id="user_Dob"  aria-label="User Date of Birth" aria-describedby="Userdob"  required>
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="Contact">Contact Number</span>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="Contact">Contact Number</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="user_Contact" placeholder="User's Contact Number" aria-label="User Contact" aria-describedby="Contact" maxlength="15" required>
                                 </div>
-                                <input type="text" class="form-control" id="user_Contact" placeholder="User's Contact Number" aria-label="User Contact" aria-describedby="Contact" maxlength="15" required>
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="Username">Username</span>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="Username">Username</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="userName" placeholder="Set Username" aria-label="Username" aria-describedby="Username" maxlength="20" required>
                                 </div>
-                                <input type="text" class="form-control" id="userName" placeholder="Set Username" aria-label="Username" aria-describedby="Username" maxlength="20" required>
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="Password">Password</span>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="Password">Password</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="userPassword" placeholder="Set Password" aria-label="User Password" aria-describedby="Password" maxlength="35" required>
                                 </div>
-                                <input type="text" class="form-control" id="userPassword" placeholder="Set Password" aria-label="User Password" aria-describedby="Password" maxlength="35" required>
-                            </div>
                             </div>
                             <div class=" d-flex flex-column ">
                                 <select class="forms-select mb-3" id="userRole" aria-label="Users Role" required>
-                                <option  disabled selected value="">Select</option>
-                                <option value="1">Admin</option>
-                                <option value="2">Cashier</option>
-                                <option value="3">Chef</option>
-                                <option value="4">Stock Manager</option>
-                            </select>
+                                    <option  disabled selected value="">Select</option>
+                                    <option value="1">Admin</option>
+                                    <option value="2">Cashier</option>
+                                    <option value="3">Chef</option>
+                                    <option value="4">Stock Manager</option>
+                                </select>
                                 <div class="mb-3">
-                                     
+
                                     <input class="form-control " type="file"  id="formFile" required>
-                            </div>
+                                </div>
                             </div>
                             <div class="d-flex  justify-content-center">
                                 <button type="submit" class="btn btn-primary">Add</button>
@@ -167,43 +167,44 @@
                     </div>
                 </div> 
             </div>
-<script type="text/javascript">
-                        function updateClock(){
-                            var now = new Date();
-                            var dname = now.getDay(),
-                                    mo = now.getMonth(),
-                                    dnum = now.getDate(),
-                                    yr = now.getFullYear(),
-                                    hou = now.getHours(),
-                                    min = now.getMinutes(),
-                                    sec = now.getSeconds(),
-                                    pe = "AM";
-                            if(hou==0){
-                                hou =12;
-                            }
-                            if(hou > 12){
-                                hou = hou - 12;
-                                pe = "PM";
-                            }
-                            Number.prototype.pad = function(digits){
-                                for(var n = this.toString(); n.length < digits; n = 0 + n);
-                                 return n;      
-    
-                            }
-                            
-                            var months = ["January" , "February" , "March" , "April" ,"May" ,"June" ,"July" ,"August" ,"September" ,"October" ,"November" ,"December"];
-                            var week = ["Sunday" ,"Monday" ,"Tuesday" ,"Wednesday" ,"Thursday" ,"Friday" ,"Saturday"];
-                            var ids = ["dayname", "month" ,"daynum" ,"year" ,"hour" ,"minutes" ,"seconds" ,"period"];
-                            var values =[week[dname] ,months[mo] ,dnum.pad(2) ,yr ,hou.pad(2) ,min.pad(2) ,sec.pad(2) ,pe];
-                            for(var i=0; i < ids.length; i++)
-                            document.getElementById(ids[i]).firstChild.nodeValue = values[i];
-                        }
-                        function initClock(){
-                            updateClock();
-                            window.setInterval(updateClock,1000);
-                        }
-                        initClock();
-                    </script>
+            <script type="text/javascript">
+                function updateClock() {
+                    var now = new Date();
+                    var dname = now.getDay(),
+                            mo = now.getMonth(),
+                            dnum = now.getDate(),
+                            yr = now.getFullYear(),
+                            hou = now.getHours(),
+                            min = now.getMinutes(),
+                            sec = now.getSeconds(),
+                            pe = "AM";
+                    if (hou == 0) {
+                        hou = 12;
+                    }
+                    if (hou > 12) {
+                        hou = hou - 12;
+                        pe = "PM";
+                    }
+                    Number.prototype.pad = function (digits) {
+                        for (var n = this.toString(); n.length < digits; n = 0 + n)
+                            ;
+                        return n;
+
+                    }
+
+                    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                    var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                    var ids = ["dayname", "month", "daynum", "year", "hour", "minutes", "seconds", "period"];
+                    var values = [week[dname], months[mo], dnum.pad(2), yr, hou.pad(2), min.pad(2), sec.pad(2), pe];
+                    for (var i = 0; i < ids.length; i++)
+                        document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+                }
+                function initClock() {
+                    updateClock();
+                    window.setInterval(updateClock, 1000);
+                }
+                initClock();
+            </script>
 
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -80,13 +80,13 @@
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <a href="../view/edit-user.php" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
                                         <span>View & Edit Users</span>
                                     </a>
                                 </div>
 
                                 <div>
-                                    <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <a href="../view/remove-users.php" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
                                         <span>Remove Users</span>
                                     </a>
                                 </div>

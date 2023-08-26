@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Restaurant Management System</title>
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
   <body style="background-color:rgb(82, 82, 84);">
@@ -23,7 +25,7 @@
                           <div  class="col-md-8 col-md-offset-2" style="width: 300px">
                               <div class="input-group" ">                 
                                   <span class="input-group-addon">
-                                      <i class="glyphicon glyphicon-user"></i>
+                                      <i class="bi bi-person"></i>
                                   </span>
                                   <input type="email" placeholder="Username"class="form-control" style="height: 40px" id="username" name="username"></input>
                               </div>
@@ -36,7 +38,7 @@
                           <div  class="col-md-8 col-md-offset-2" style="width: 300px">
                               <div class="input-group" ">              
                                   <span class="input-group-addon">
-                                      <i class="glyphicon glyphicon-lock"></i>
+                                      <i class="bi bi-lock"></i>
                                   </span>
                                   <input type="password" placeholder="Password"class="form-control" style="height: 40px" id="password" name="password"></input>
                               </div>

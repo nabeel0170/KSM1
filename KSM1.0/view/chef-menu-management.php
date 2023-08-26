@@ -47,12 +47,11 @@
 
         <!--              right navbar-->
 
-        </nav>
+
         <!-- features tabs-->
         <div class=" navbar">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    
                     <a class="nav-link active" href="../view/chef-menu-management.php">Menu Management</a>
                 </li>
                 <li class="nav-item">
@@ -64,6 +63,54 @@
             </ul>
         </div>
         <hr>
+            <div class="side-bar"style="width:fit-content;background-color:black">
+                <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+                    <div class="side-nav">
+                        <div class="list-group list-group-flush " style="width:fit-content;text-align:center;padding:20px;height:500px;justify-content:space-around">
+                            <div>
+                                <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <span>Add Menu Item</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <span>Edit Menu Item</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <span>Remove Menu Item</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <span>Pricing</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <span>Availability</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <span>Create Menu</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <span>Edit Menu</span>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                    <span>Delete Menu</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav> 
+            </div>
             <script type="text/javascript">
                 function updateClock() {
                     var now = new Date();

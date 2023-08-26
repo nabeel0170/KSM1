@@ -52,18 +52,91 @@
         <div class=" navbar">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    
-                    <a class="nav-link active" href="../view/chef-menu-management.php">Menu Management</a>
+                    <a class="nav-link active" href="../view/user-management.php">User Management</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="../view/chef-inventory-management.php">Inventory Management</a>
+                    <a class="nav-link active" href="../view/menu-management.php">Menu Management</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="../view/chef-dashboard.php">Dashboard</a>
+                    <a class="nav-link active" href="../view/inventory-management.php">Inventory Management</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../view/billing-payments.php">Billing and Payments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../view/dashboard.php">Dashboard</a>
                 </li>
             </ul>
         </div>
         <hr>
+            <div style="display:flex;">
+                <div class="side-bar"style="width:fit-content;">
+                    <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+                        <div class="side-nav">
+                            <div class="list-group list-group-flush " style="width:fit-content;text-align:center;padding:20px;height:270px;justify-content:space-around">
+                                <div>
+                                    <a href="../view/add-users.php" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                        <span>Add Users</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="../view/edit-user.php" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                        <span>View & Edit Users</span>
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <a href=../view/remove-users.php"" class="list-group-item-action py-2 ripple" aria-current="true" style="text-decoration:none;">
+                                        <span>Remove Users</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav> 
+                </div>
+                <div class="section" style="width:100%;">
+                    <div class="container  justify-content-center align-items-center" style="width:100%;">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">First Name</th>
+                                        <th scope="col">Last Name</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">NIC</th>
+                                        <th scope="col">Contact Number</th>
+                                        <th scope="col">Username</th>
+                                        <th scope="col">Password</th>
+                                        <th scope="col">Role</th>
+                                        <th scope="col">Image</th>
+                                        <th scope="col">Remove</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+
+                                        <td>1</td>
+                                        <td>fname</td>
+                                        <td>lname</td>
+                                        <td>testemail@email.com</td>
+                                        <td>95659585V</td>
+                                        <td>+9475123456 </td>
+                                        <td>username </td>
+                                        <td>password123</td>
+                                        <td>role1 </td>
+                                        <td>image src</td>
+                                        <td><button type="button" class="btn btn-danger" data-bs-toggle="" data-bs-target="">Delete</button></td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                       
+                    </div>
+                </div> 
+            </div>
             <script type="text/javascript">
                 function updateClock() {
                     var now = new Date();
@@ -102,6 +175,7 @@
                 }
                 initClock();
             </script>
+
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>

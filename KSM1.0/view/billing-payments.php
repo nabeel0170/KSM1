@@ -69,8 +69,7 @@
             </ul>
         </div>
         <hr>
-            <div class="side-bar"style="width:fit-content;background-color:black">
-                <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+            <div class="container-fluid">
                     <div class="side-nav">
                         <div class="list-group list-group-flush " style="width:fit-content;text-align:center;padding:20px;height:300px;justify-content:space-around">
                             <div>
@@ -95,7 +94,6 @@
                             </div>
                         </div>
                     </div>
-                </nav> 
             </div>
             <script type="text/javascript">
                 function updateClock() {
